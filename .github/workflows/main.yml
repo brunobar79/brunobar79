@@ -37,7 +37,7 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_ignored: html, css
+          plugin_languages_ignored: html, css, php, ApacheConf
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
@@ -53,11 +53,12 @@ jobs:
           plugin_people_types: followers, following
           plugin_projects: yes
           plugin_projects_limit: 4
-          plugin_repositories: 100
+          plugin_repositories: no
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
           plugin_stackoverflow: yes
-          plugin_stackoverflow_limit: 2
-          plugin_stackoverflow_lines: 4
-          plugin_stackoverflow_lines_snippet: 2
-          plugin_stackoverflow_sections: answers-top, questions-recent
+          plugin_stackoverflow_user: 1236940
+          plugin_stackoverflow_limit: 0
+          plugin_stackoverflow_lines: 0
+          plugin_stackoverflow_lines_snippet: 0
+          plugin_stackoverflow_sections: false
